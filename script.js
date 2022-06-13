@@ -9,7 +9,12 @@ var app = new Vue({
   methods: {
     reverseMessage: function () {
       this.message = this.message.split('').reverse().join('')
-    }
+    },
+    toggleTextandAdd: function (item)
+    {
+      item.show = !item.show
+      
+    }  
   }
 })
 function toggle(con){
