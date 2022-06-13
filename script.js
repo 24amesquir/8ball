@@ -21,8 +21,7 @@ function toggle(con){
   if(!con){Vue.data.message = ''}
   Vue.data = "Hello Vue!"
 }
-class player{
-  function show(this.showen){
-    player.showen = true;
-  }
+function ball(){
+  app.el.style.backgroundColor = "black"
+  
 }
