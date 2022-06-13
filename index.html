@@ -11,8 +11,12 @@
   </head>
   <body>
     <div id="app">
-      {{hello}}
+      {{message}}
     </div>
-    <v-btn @click=""></v-btn>
+    <li v-for="item in data">
+      {{ item.message }}
+    </li>
+    <button v-on:click="reverseMessage">Reverse Message</button>
+    <div v-if="showText" {{ hello}} </div>
   </body>
 </html>
